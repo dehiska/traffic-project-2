@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python fix_maps.py)",
+      "Bash(python fix_plot_style.py)",
+      "Bash(ls -d \"C:/Users/owner/Downloads/Masters/Masters_Spring_2026/Advanced Deep Learning/Traffic Project 2/data/\"*station* \"C:/Users/owner/Downloads/Masters/Masters_Spring_2026/Advanced Deep Learning/Traffic Project 2/data/\"*Station*)",
+      "Bash(python cleanup_station_data.py)",
+      "Bash(python cleanup_non_ct.py)",
+      "Bash(find data/*_tmas -type f ! -iname \"CT_*\")",
+      "Bash(find data/*_tmas -type f ! -iname \"CT_*\" -delete)",
+      "Bash(find data/*_tmas -type f -iname \"CT_*\")"
+    ]
+  }
+}
